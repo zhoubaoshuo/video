@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  yyds {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+  }
+  
+  wz {
+	font-size: 18px;
+	line-height: 28px;
+	color: #333333;
+	margin: 10px 0;
+  }
+  
+  hr {
+	border: none;
+	border-top: 1px solid #CCCCCC;
+	margin: 20px 0;
+  }
+  
+  /* 将标题和段落的字体颜色改为黑色 */
+  h1, p {
+	color: #000000;
+  }
+  
+  /* 简化超链接的样式 */
+  a {
+	text-decoration: none;
+	color: #0077FF;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  /* 使图片居中并添加边框 */
+  img {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+  }
+  
+  /* 简化水平线的样式 */
+  hr {
+	border-top: 1px solid #CCCCCC;
+	margin: 20px 0;
+  }
+  
+  /* 将标题居中并添加下划线 */
+  h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 5px;
+  }
+  
+  /* 将段落的首行缩进 */
+  p {
+	text-indent: 2em;
+  }
+  
+  /* 将段落的最后一个字母大写 */
+  p::first-letter {
+	text-transform: uppercase;
+  }
